@@ -13,7 +13,7 @@ def create_file():
             file.write(content)
         print("File '{filename}' created successfully with the provided content.")
     except Exception as e:
-        print("Error occurred while creating the file: {e}")
+        print("Error occurred: {e}")
 
 if __name__ == "__main__":
     create_file()
